@@ -4,7 +4,7 @@ from cobrinea.settings.base import *
 
 env = environ.Env()
 
-DEBUG = env.bool("DEBUG", False)
+DEBUG = env.bool("DEBUG", True)
 
 SECRET_KEY = env("SECRET_KEY")
 
